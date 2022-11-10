@@ -1,0 +1,72 @@
+h2 {
+    position: absolute;
+    width: 324px;
+    height: 60px;
+    left: 588px;
+    top: 417px;
+
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #C847AB;
+}
+
+#p_1 {
+    /* Praesent tellus purus, maximus vitae nisl ut, gravida bibendum mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam molestie sodales ex et tempus. Duis dapibus fermentum diam in cursus. Ut non sem est. Quisque eget mi auctor, mollis leo nec, pretium enim. Donec eleifend sem a commodo dictum. */
+
+
+    position: absolute;
+    width: 918px;
+    height: 234px;
+    left: 525px;
+    top: 524px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+
+}
+
+#p_2 {
+    /* Praesent tellus purus, maximus vitae nisl ut, gravida bibendum mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam molestie sodales ex et tempus. Duis dapibus fermentum diam in cursus. Ut non sem est. Quisque eget mi auctor, mollis leo nec, pretium enim. Donec eleifend sem a commodo dictum. */
+
+    position: absolute;
+    width: 921px;
+    height: 234px;
+    left: 80px;
+    top: 933px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+#p_3 {
+    /* Praesent tellus purus, maximus vitae nisl ut, gravida bibendum mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam molestie sodales ex et tempus. Duis dapibus fermentum diam in cursus. Ut non sem est. Quisque eget mi auctor, mollis leo nec, pretium enim. Donec eleifend sem a commodo dictum. */
+
+    position: absolute;
+    width: 918px;
+    height: 234px;
+    left: 528px;
+    top: 1319px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+
+}
