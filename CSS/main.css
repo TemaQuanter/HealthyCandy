@@ -101,18 +101,20 @@ nav a:last-of-type.active {
 #content {
     /* Main content layout setup */
     position: relative;
-    display: block;
+    display: block; 
 
     width: 1500px;
-    height: 3000px;
+    height: 1300px;
 
     margin: auto;
 
-    /* top: -370px; */
+
+    top: -370px;
 
     border-style: solid;
     border-width: 0 1px 0 1px;
     border-color: #3E0732;
+
 
     z-index: -1;
 }

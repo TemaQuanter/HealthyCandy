@@ -24,6 +24,8 @@ h2 {
     left: 525px;
     top: 524px;
 
+
+    text-align: justify;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -42,6 +44,7 @@ h2 {
     height: 234px;
     left: 80px;
     top: 933px;
+    text-align: justify;
 
     font-family: 'Inter';
     font-style: normal;
@@ -60,6 +63,7 @@ h2 {
     height: 234px;
     left: 528px;
     top: 1319px;
+    text-align: justify;
 
     font-family: 'Inter';
     font-style: normal;
@@ -69,4 +73,76 @@ h2 {
 
     color: #000000;
 
+}
+#image1 { 
+position: relative;
+width: 429px;
+height: 264px;
+left: 68px;
+top: 501px;
+
+background: url(image1.jpg);
+border-radius: 20px;
+}
+#image2 { 
+    position: relative;
+    width: 418px;
+    height: 279px;
+    left: 600px;
+    top: 902px;
+    
+    background: url(image_2.jpg);
+    border-radius: 20px;
+}
+#image3 {
+position: relative;
+width: 412px;
+height: 275px;
+left: -776px;
+top: 1298px;
+
+background: url(image.png);
+border-radius: 20px;
+}
+#H2 {
+/* Our solution! */
+
+
+position: absolute;
+width: 242px;
+height: 60px;
+left: 629px;
+top: 816px;
+
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+
+
+/* Primary Color */
+
+color: #C847AB;
+}
+
+#H22 {
+    position: absolute;
+width: 144px;
+height: 60px;
+left: 678px;
+top: 1213px;
+
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+
+
+/* Primary Color */
+
+color: #C847AB;
 }
