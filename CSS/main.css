@@ -5,22 +5,42 @@
     padding: 0;
 }
 
+body {
+    /* It is needed to prevent a page from showing a blank space on the right */
+    overflow-x: hidden;
+}
+
 header {
     /* Header_background */
+    display: flex;
+    position: relative;
 
-    width: 100vw;
+    width: 100%;
     height: 265px;
+
+    justify-content: center;
+    align-items: center;
 
     background: #C847AB;
 }
 
-header h1 {
-    /* Title */
+header img {
+    /* Logo */
+    display: block;
     position: relative;
 
-    top: 51px;
+    float: left;
 
-    text-align: center;
+    width: 180px;
+    height: 180px;
+}
+
+header h1 {
+    /* Title */
+    display: block;
+    position: relative;
+
+    margin-left: 50px;
 
     font-family: 'Lobster';
     font-style: normal;
@@ -31,28 +51,17 @@ header h1 {
     color: #FFFFFF;
 }
 
-header img {
-    /* Logo */
-    display: block;
-
-    position: relative;
-    width: 180px;
-    height: 180px;
-
-    top: -120px;
-    left: -500px;
-
-    margin: auto;
-}
-
 nav {
     /* Navigation_bar_background */
 
+    display: flex;
     position: relative;
+    
     width: 100vw;
     height: 105px;
 
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 
     background: #3E0732;
 }
@@ -61,9 +70,6 @@ nav a {
     /* Links */
     position: relative;
 
-    top: -20px;
-    left: -70px;
-
     font-family: 'Lobster';
     font-style: normal;
     font-weight: 400;
@@ -71,13 +77,18 @@ nav a {
     line-height: 60px;
     text-decoration: none;
 
-    margin-left: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
 
     color: #FFFFFF;
 }
 
+nav a:first-of-type {
+    margin-left: 0;
+}
+
 nav a:last-of-type {
-    top: 5px;
+    margin-right: 0;
 }
 
 nav a:hover {
@@ -103,20 +114,15 @@ nav a:last-of-type.active {
     position: relative;
     display: block; 
 
-    width: 1500px;
-    height: 1300px;
+    width: 90%;
+
+    padding: 0 50px 100px 50px;
 
     margin: auto;
-
-
-    top: -370px;
 
     border-style: solid;
     border-width: 0 1px 0 1px;
     border-color: #3E0732;
-
-
-    z-index: -1;
 }
 
 /* Footer */
@@ -125,9 +131,12 @@ footer {
     /* Footer_background */
     position: relative;
 
-    width: 100vw;
+    width: 100%;
     height: 348px;
-    left: 0px;
+
+    box-sizing: border-box;
+
+    padding: 50px;
 
     background: #3E0732;
 }
@@ -136,9 +145,7 @@ footer img {
     position: relative;
     display: block;
 
-    margin: auto;
     padding-top: 30px;
-    left: -600px;
 }
 
 footer table {
@@ -146,9 +153,6 @@ footer table {
     display: block;
 
     width: 1400px;
-
-    margin: auto;
-    left: 50px;
 
     font-family: 'Inter';
     font-style: normal;
