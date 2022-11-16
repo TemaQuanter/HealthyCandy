@@ -55,7 +55,9 @@ nav {
     /* Navigation_bar_background */
 
     display: flex;
-    position: relative;
+    position: sticky;
+
+    top: 0;
     
     width: 100vw;
     height: 105px;
@@ -64,6 +66,8 @@ nav {
     align-items: center;
 
     background: #3E0732;
+
+    z-index: 2;
 }
 
 nav a {
@@ -112,7 +116,7 @@ nav a:last-of-type.active {
 #content {
     /* Main content layout setup */
     position: relative;
-    display: block; 
+    display: flow-root; 
 
     width: 90%;
 

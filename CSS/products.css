@@ -1,0 +1,138 @@
+#filters {
+    display: block;
+    position: relative;
+
+    float: left;
+
+    width: 20%;
+    height: 800px;
+
+    background: #C847AB;
+}
+
+#grid {
+    display: block;
+    position: relative;
+
+    float: left;
+
+    overflow-y: scroll;
+
+    width: 80%;
+    height: 800px;
+}
+
+#filters > h3 {
+    position: relative;
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #FFFFFF;
+}
+
+#menu h3 {
+    text-align: center;
+
+    margin-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+#menu h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cell {
+    box-sizing: border-box;
+
+    display: inline-block;
+    position: relative;
+
+    margin: 25px;
+
+    width: 300px;
+    height: 300px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #3E0732;
+    border-radius: 20px;
+}
+
+.cell img {
+    display: block;
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 90%;
+    height: 180px;
+
+    overflow: hidden;
+}
+
+.cell h2 {
+    display: block;
+    position: relative;
+
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.cell h1 {
+    display: inline-block;
+    position: relative;
+
+    margin-left: 5%;
+
+    top: 10px;
+}
+
+.cell button {
+    /* Buy button */
+
+    position: relative;
+
+    float: right;
+
+    margin-right: 5%;
+
+    width: 95px;
+    height: 43px;
+
+    background: #C847AB;
+    border-radius: 20px;
+
+    border: none;
+
+    /* Button text */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.cell button:hover {
+    background-color: #3E0732;
+    cursor: pointer;
+}
