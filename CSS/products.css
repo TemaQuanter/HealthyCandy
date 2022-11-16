@@ -133,6 +133,5 @@
 }
 
 .cell button:hover {
-    background-color: #3E0732;
     cursor: pointer;
 }

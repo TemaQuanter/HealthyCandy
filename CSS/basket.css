@@ -1,0 +1,70 @@
+h2 {
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #C847AB;
+}
+
+#delivery_option {
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #3E0732;
+}
+
+#final_price {
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #C847AB;
+}
+
+#place_order {
+    display: block;
+    position: relative;
+
+    width: 369px;
+    height: 96px;
+
+    margin: 50px auto 50px auto;
+
+    background-color: #C847AB;
+    border-radius: 20px;
+    border: none;
+
+    /* Text styles */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+#place_order:hover {
+    background-color: #3E0732;
+    cursor: pointer;
+}

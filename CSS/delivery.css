@@ -5,7 +5,7 @@
 
     align-items: center;
 
-    margin: auto;
+    margin: 50px auto 50px auto;
 
     width: 90%;
     height: 400px;
@@ -62,4 +62,32 @@
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #3E0732;
+}
+
+.delivery_option button {
+    position: absolute;
+
+    width: 165px;
+    height: 43px;
+
+    top: 85%;
+    left: 70%;
+
+    background: #C847AB;
+    border-radius: 20px;
+    border: none;
+
+    /* Button text */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+
+.delivery_option button:hover {
+    cursor: pointer;
 }
