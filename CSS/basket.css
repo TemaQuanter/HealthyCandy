@@ -1,4 +1,4 @@
-h2 {
+#content > h2 {
     text-align: center;
 
     margin-top: 50px;
@@ -67,4 +67,67 @@ h2 {
 #place_order:hover {
     background-color: #3E0732;
     cursor: pointer;
+}
+
+#empty_basket_notification {
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #3E0732;
+}
+
+/* Cell with a product */
+
+.cell {
+    box-sizing: border-box;
+
+    display: inline-block;
+    position: relative;
+
+    margin: 25px;
+
+    width: 300px;
+    height: 300px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #3E0732;
+    border-radius: 20px;
+}
+
+.cell img {
+    display: block;
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 90%;
+    height: 180px;
+
+    overflow: hidden;
+}
+
+.cell h2 {
+    display: block;
+    position: relative;
+
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.cell h1 {
+    display: inline-block;
+    position: relative;
+
+    margin-left: 5%;
+
+    top: 10px;
 }
