@@ -91,3 +91,19 @@
 .delivery_option button:hover {
     cursor: pointer;
 }
+
+.delivery_option .price {
+    display: block;
+    position: absolute;
+
+    top: 85%;
+    left: 40%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
