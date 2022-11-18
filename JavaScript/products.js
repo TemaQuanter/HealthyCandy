@@ -56,7 +56,7 @@ const buyButton = (cell) => {
 
         buttonClicked.style.backgroundColor = "#3E0732";
         buttonClicked.innerText = "Selected";
-        buttonClicked.style.width = "110px";
+        buttonClicked.style.width = "120px";
     } // end if
 } // end buyButton()
 
