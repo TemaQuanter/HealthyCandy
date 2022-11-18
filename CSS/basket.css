@@ -100,6 +100,8 @@
 
     border: 1px solid #3E0732;
     border-radius: 20px;
+
+    box-shadow: 5px 5px 15px #3E0732;
 }
 
 .cell img {
