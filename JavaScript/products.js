@@ -19,6 +19,7 @@ const selectSelectedItems = () => {
             if (buttonClicked) {
                 buttonClicked.style.backgroundColor = "#3E0732";
                 buttonClicked.innerText = "Selected";
+                buttonClicked.style.width = "120px";
             } // end if
         } catch (error) {
 
