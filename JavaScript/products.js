@@ -47,6 +47,7 @@ const buyButton = (cell) => {
 
         buttonClicked.style.backgroundColor = "#C847AB";
         buttonClicked.innerText = "Buy";
+        buttonClicked.style.width = "95px";
     } else {
         // If button state is deselected, then select it
 
@@ -55,6 +56,7 @@ const buyButton = (cell) => {
 
         buttonClicked.style.backgroundColor = "#3E0732";
         buttonClicked.innerText = "Selected";
+        buttonClicked.style.width = "110px";
     } // end if
 } // end buyButton()
 
