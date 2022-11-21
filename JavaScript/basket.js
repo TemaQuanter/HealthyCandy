@@ -84,6 +84,23 @@ const loadDeliveryOption = () => {
     // Get the element, where to place the information about delivery option
     const deliveryOptionBox = document.getElementById("delivery_option");
 
+    // Check if the delivery info is stored in localStorage
+    // Might not be stored in case the user have not visited the delivery page yet
+    if (localStorage.getItem("delivery_option") == null) {
+        // TODO: Get rid of hardcoding the delivery info
+        // TODO: Need to execute a call to Delivery page in order to store the data in the local storage
+
+        // Hardcode the initial delivery info
+        const deliveryInfo = {
+            id: "delivery_2",
+            name: "Standard Delivery",
+            price: "9.99"
+        }; // end deliveryInfo
+
+        // Store this data in the local storage
+        localStorage.setItem("delivery_option", JSON.stringify(deliveryInfo));
+    } // end if
+
     // Get chosen delivery info
     const deliveryInfo = JSON.parse(localStorage.getItem("delivery_option"));
 

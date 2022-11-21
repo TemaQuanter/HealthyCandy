@@ -31,7 +31,7 @@ const selectSelectedItems = () => {
 /**
  * This function is called when a user clickes on "Buy"/"Selected" button in Products page.
  * 
- * @param cell - is an ID of the item, chosen by a user.
+ * @param cell Is an ID of the item, chosen by a user.
  */
 const buyButton = (cell) => {
 
@@ -145,7 +145,7 @@ const runFilters = () => {
  * This function is called when one of the options on category panel is chosen.
  * This function filters the products according to filters.
  * 
- * @param element - the element clicked
+ * @param element The element clicked
  */
 const filterProducts = (element) => {
     // Get the filter value
