@@ -1,0 +1,111 @@
+.delivery_option { 
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+
+    align-items: center;
+
+    margin: 50px auto 50px auto;
+
+    width: 90%;
+    height: 400px;
+
+    background: #FFFFFF;
+    border: 5px solid #3E0732;
+    
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 10px #3E0732;
+}
+
+.delivery_option img { 
+    position: relative;
+    box-sizing: border-box;
+
+    width: 400px;
+
+    border-radius: 20px;
+
+    margin-left: 50px;
+}
+
+.delivery_option .description {
+    box-sizing: border-box;
+
+    width: 68%;
+    height: 60%;
+
+    margin-left: 50px;
+    margin-right: 10px;
+
+    padding: 10px;
+
+    overflow-y: scroll;
+
+    border: solid;
+
+    border-radius: 20px;
+}
+
+.delivery_option h2 {
+    display: block;
+    position: relative;
+
+
+    text-decoration: underline #3E0732;
+    font-family: cursive;
+    color: #3E0732;
+    font-size: 45px;
+}
+
+.delivery_option p {
+    position: relative;
+
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3E0732;
+}
+
+.delivery_option button {
+    position: absolute;
+
+    width: 165px;
+    height: 43px;
+
+    top: 85%;
+    left: 70%;
+
+    background: #C847AB;
+    border-radius: 20px;
+    border: none;
+
+    /* Button text */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+
+.delivery_option button:hover {
+    cursor: pointer;
+}
+
+.delivery_option .price {
+    display: block;
+    position: absolute;
+
+    top: 85%;
+    left: 40%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}

@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="./../CSS/main.css" />
-    <link rel="stylesheet" type="text/css" href="./../CSS/basket.css" />
-    <title>Basket</title>
-</head>
-<body>
-    <header>
-        <img src="../SVG/Logo.svg" />
-        <h1>Healthy Candy</h1>
-    </header>
-    <nav>
-        <a href="./../index.html">Main</a>
-        <a href="./products.html">Products</a>
-        <a href="./delivery.html">Delivery</a>
-        <a href="./reviews.html">Reviews</a>
-        <a class="active" href="#basket"><img src="./../SVG/Basket.svg" /></a>
-    </nav>
-    <section id="content">
-
-    </section>
-    <footer>
-        <img src="./../SVG/Logo_bottom.svg" />
-        <table>
-            <tr>
-                <td>Contact us:</td>
-                <td>support@healthycandy.com</td>
-            </tr>
-            <tr>
-                <td>Advertisement:</td>
-                <td>advertisement@healthycandy.com</td>
-            </tr>
-        </table>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./../SVG/favicon.svg" type="image/svg" sizes="16x16" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="./../CSS/main.css" />
+        <link rel="stylesheet" type="text/css" href="./../CSS/basket.css" />
+        <title>Basket</title>
+    </head>
+    <body>
+        <header>
+            <img src="../SVG/Logo.svg" />
+            <h1>Healthy Candy</h1>
+        </header>
+        <nav>
+            <a href="./../index.html">Main</a>
+            <a href="./products.html">Products</a>
+            <a href="./delivery.html">Delivery</a>
+            <a href="./reviews.html">Reviews</a>
+            <a class="active" href="#basket"><img src="./../SVG/Basket.svg" /></a>
+        </nav>
+        <section id="content">
+            <h2>Bakset</h2>
+            <div id="chosen_products_box"></div>
+            <h2>Delivery</h2>
+            <h3 id="delivery_option">Delivery option</h3>
+            <p id="final_price">$0</p>
+            <button id="place_order" onClick="placeOrder()">Place order</button>
+        </section>
+        <footer>
+            <img src="./../SVG/Logo_bottom.svg" />
+            <table>
+                <tr>
+                    <td>Contact us:</td>
+                    <td>support@healthycandy.com</td>
+                </tr>
+                <tr>
+                    <td>Advertisement:</td>
+                    <td>advertisement@healthycandy.com</td>
+                </tr>
+            </table>
+        </footer>
+        <script src="../JavaScript/basket.js" type="text/javascript"></script>
+    </body>
 </html>

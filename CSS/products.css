@@ -8,6 +8,8 @@
     height: 800px;
 
     background: #C847AB;
+
+    box-shadow: 0px 0px 5px 5px #C847AB;
 }
 
 #grid {
@@ -53,7 +55,7 @@
 }
 
 #menu h3:hover {
-    text-decoration: underline;
+    text-shadow: 0 0 2px #FFFFFF;
     cursor: pointer;
 }
 
@@ -72,6 +74,8 @@
 
     border: 1px solid #3E0732;
     border-radius: 20px;
+
+    box-shadow: 5px 5px 15px #3E0732;
 }
 
 .cell img {
@@ -83,6 +87,8 @@
 
     width: 90%;
     height: 180px;
+
+    border-radius: 20px;
 
     overflow: hidden;
 }
@@ -133,6 +139,5 @@
 }
 
 .cell button:hover {
-    background-color: #3E0732;
     cursor: pointer;
 }

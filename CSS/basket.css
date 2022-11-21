@@ -1,0 +1,137 @@
+#content > h2 {
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #C847AB;
+}
+
+#delivery_option {
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #3E0732;
+}
+
+#final_price {
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #C847AB;
+}
+
+#place_order {
+    display: block;
+    position: relative;
+
+    width: 369px;
+    height: 96px;
+
+    margin: 50px auto 50px auto;
+
+    background-color: #C847AB;
+    border-radius: 20px;
+    border: none;
+
+    /* Text styles */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+#place_order:hover {
+    background-color: #3E0732;
+    cursor: pointer;
+}
+
+#empty_basket_notification {
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #3E0732;
+}
+
+/* Cell with a product */
+
+.cell {
+    box-sizing: border-box;
+
+    display: inline-block;
+    position: relative;
+
+    margin: 25px;
+
+    width: 300px;
+    height: 300px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #3E0732;
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 15px #3E0732;
+}
+
+.cell img {
+    display: block;
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 90%;
+    height: 180px;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.cell h2 {
+    display: block;
+    position: relative;
+
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.cell h1 {
+    display: inline-block;
+    position: relative;
+
+    margin-left: 5%;
+
+    top: 10px;
+}
