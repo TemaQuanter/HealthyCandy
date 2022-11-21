@@ -6,7 +6,7 @@
 /**
  * This function get the delivery info based on the option ID
  * 
- * @param optionId - an ID of the delivery option
+ * @param optionId An ID of the delivery option
  * 
  * @returns Dictionary object with the delivery info
  */
@@ -61,7 +61,7 @@ const selectLatestDeliveryOption = () => {
 /**
  * This function resets 'Select' button to the default style
  * 
- * @param optionId - an ID of the button to reset
+ * @param optionId An ID of the button to reset
  */
 const resetButton = (optionId) => {
 
@@ -77,7 +77,7 @@ const resetButton = (optionId) => {
 /**
  * This function is called when user selects a delivery option on Delivery page
  * 
- * @param optionId - an ID of the chosen delivery option
+ * @param optionId An ID of the chosen delivery option
  */
 const selectDeliveryOption = (optionId) => {
     // Reset the previously selected option
