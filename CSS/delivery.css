@@ -55,13 +55,13 @@
     text-decoration: underline #3E0732;
     font-family: cursive;
     color: #3E0732;
-    font-size: 45px;
+    font-size: 3em;
 }
 
 .delivery_option p {
     position: relative;
 
-    font-size: 25px;
+    font-size: 1.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #3E0732;
 }
